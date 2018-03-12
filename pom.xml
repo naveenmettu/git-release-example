@@ -5,16 +5,17 @@
 	<groupId>com.vitormp</groupId>
 	<artifactId>git-release-example</artifactId>
 	<version>0.1.14-SNAPSHOT</version>
-	<packaging>war<packaging>
+	<packaging>war</packaging>
 
-	<name>git-release-example Maven Webapp</name
+	<name>git-release-example Maven Webapp</name>
+	<!-- Publish snapshots here -->
 
 	<scm>
 		<connection>scm:git:git@github.com:sundeepbobba/git-release-example.git</connection>
 		<developerConnection>scm:git:git@github.com:sundeepbobba/git-release-example.git</developerConnection>
 		<url>scm:git:git@github.com:sundeepbobba/git-release-example.git</url>
           <tag>HEAD</tag>
-  </scm>
+  	</scm>
 
 	<distributionManagement>
 		<!-- Publish versioned releases here -->
